@@ -71,7 +71,7 @@
       alert('Error: \n' + errorMessages.join('\n'));
     } else {
       // If no errors, send data via EmailJS
-      emailjs.send("service_36kx5fx", "template_5hldzlm", {
+      emailjs.send("service_7gka7pv", "template_5hldzlm", {
         fullName: fullName,
         email: email
       }).then(function(response) {
